@@ -1,0 +1,22 @@
+{
+  "name": "cookie-domain-tester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nwalters512/cookie-domain-tester.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nwalters512/cookie-domain-tester/issues"
+  },
+  "homepage": "https://github.com/nwalters512/cookie-domain-tester#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
