@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const port = 3052;
 
-app.set('trust proxy', true)
+app.set('trust proxy', 'loopback')
 
 app.get("/", (req, res) => {
   for (let i = 0; i < 200; i++) {
